@@ -5,7 +5,7 @@ if (isset($_GET['uid']) && isset($_GET['server_name'])) {
     $uid = $_GET['uid'];
     $server_name = $_GET['server_name'];
 
-    $token_url = "http://teamxcutehack.serv00.net/like/token_ind.json";
+    $token_url = "http://teamxcutehack.serv00.net/ron/token_ind.json";
     $ffinfo_url = "https://infoff.vercel.app/info?region={$server_name}&uid={$uid}";
     $like_api_url = "https://likeapiff.thory.in/like?uid={$uid}&server_name={$server_name}&token_url=" . urlencode($token_url);
 
